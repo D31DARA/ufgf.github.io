@@ -118,9 +118,9 @@ main {
 
 #digital_watch {
 	letter-spacing: 5px;
-	color: #777;
+	color: #585858;
 	font-size: 30px;
 	border: 2px solid #777;
 	padding: 10 10px;
-	width: 160px;
+	width: max-content;
 }
