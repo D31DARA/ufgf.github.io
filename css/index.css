@@ -93,6 +93,7 @@ main {
 .btn1:hover{
 	color: #fff;
 }
+
 .btn1::before{
 	content: "";
 	position: absolute;
@@ -110,6 +111,7 @@ main {
 .btn1::before{
   transform: scaleX(0);
 }
+
 .btn1:hover::before{
   transform: scaleX(1);
 }
