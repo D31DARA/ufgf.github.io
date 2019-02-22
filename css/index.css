@@ -59,10 +59,9 @@ footer {
 }
 
 #digital_watch {
-	color: #e0e0e0;
+	color: #4e4e4e;
 	font-size: 30px;
-	border: 2px solid #777;
-	padding: 10px 10px;
+	padding: 4px;
 	width: max-content;
 }
 
