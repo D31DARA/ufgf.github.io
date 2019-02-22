@@ -16,7 +16,7 @@ ol, ul { list-style: none; }
 
 header {
 	text-align: center;
-	padding: 0px 70px;
+	background: #565656;
 	height: 44px;
 	display: -webkit-box;
 	display: -ms-flexbox;
