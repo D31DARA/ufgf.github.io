@@ -60,6 +60,7 @@ footer {
 	font-size: 30px;
 	padding: 4px;
 	width: max-content;
+    margin-left: auto;
 }
 
 .btn {
