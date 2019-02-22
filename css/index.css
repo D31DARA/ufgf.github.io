@@ -88,7 +88,7 @@ main {
 	min-width: 200px;
 	margin: 10px;
 	cursor: pointer;
-	transition: color .4 linear;
+	transition: color 0.4s linear;
 }
 
 .btn1:hover{
