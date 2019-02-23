@@ -139,16 +139,16 @@ footer {
 	z-index: 100;
 }
 .contpre {
-    width: 250px;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -200px;
-    margin-top: -100px;
-    color: #ffffff;
-    font-size: 40px;
-    text-align: center;
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	color: #ffffff;
+	font-size: 40px;
+	text-align: center;
 }
 #p_prldr .svg_anm {
 	position: absolute;
