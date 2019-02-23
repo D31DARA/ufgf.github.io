@@ -10,7 +10,7 @@ function clock() {
 	if (hours <= 9) hours = "0" + hours;
 	if (minutes <= 9) minutes = "0" + minutes;
 	if (seconds <= 9) seconds = "0" + seconds;
-	date_time = day + "." + month[month_num] + "." + d.getFullYear() + "г. "+ hours + ":" + minutes + ":" + seconds;
+	date_time = day + "." + month[month_num] + "." + d.getFullYear() + "г. / "+ hours + ":" + minutes + ":" + seconds;
 	if (document.layers) {
 		document.layers.doc_time.document.write(date_time);
 		document.layers.doc_time.document.close();
