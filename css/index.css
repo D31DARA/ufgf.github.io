@@ -65,6 +65,7 @@ footer {
 .music {
 	margin-left: auto;
 }
+
 .btn {
 	text-decoration: none;
 	color: #fff;
@@ -72,12 +73,6 @@ footer {
 	text-align: center;
 	min-width: 30px;
 	max-width: 300px;
-	/*background-color: #3868A1;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#4385D3), to(#3868A1));
-	background-image: linear-gradient(to bottom, #4385D3, #3868A1);
-	background-color: #212121;
-	-webkit-box-shadow: inset 0px 1px 0px #bbd2ef, 0px 6px 0px 0px #1c4473, 0px 11px 5px #999;
-	box-shadow: inset 0px 1px 0px #bbd2ef, 0px 6px 0px 0px #1c4473, 0px 11px 5px #999;*/
 	cursor: pointer;
 
 	font-family: 'Open Sans','Ubuntu', sans-serif;
@@ -93,31 +88,27 @@ footer {
 	justify-content: flex-start;
 }
 
-.middle {
+.middle1 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	text-align: center;
 }
-
-.btn1 {
+.mdrnbtn1 {
 	background: none;
 	border: 2px solid #000;
 	font-family: "montserrat", sans-serif;
 	text-transform: uppercase;
 	padding: 12px 20px;
 	min-width: 200px;
-	margin: 10px;
 	cursor: pointer;
-	transition: color 0.4s linear;
+	transition: color 0.3s linear;
 }
-
-.btn1:hover{
+.mdrnbtn1:hover{
 	color: #fff;
 }
-
-.btn1::before{
+.mdrnbtn1::before{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -130,11 +121,43 @@ footer {
 	transform-origin: 0 0;
 	transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
 }
-
-.btn1::before{
-	transform: scaleX(0);
+.mdrnbtn1::before{
+	transform: scaleY(0);
 }
-
 .btn1:hover::before{
 	transform: scaleX(1);
+}
+
+
+#p_prldr{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #9A12B3;
+	z-index: 30;
+}
+.contpre small{ font-size:25px; }
+.contpre{
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 48%;
+	margin-left: -125px;
+	margin-top: -75px;
+	color: #fff;
+	font-size: 40px;
+	letter-spacing: -2px;
+	text-align: center;
+	line-height: 35px;
+}
+#p_prldr .svg_anm {
+	position: absolute;
+	width: 41px;
+	height: 41px;
+	background: url(svg/loading.svg) center center no-repeat;
+	background-size: 41px;    
+	margin: -16px 0 0 -16px;
 }
