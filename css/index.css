@@ -129,7 +129,7 @@ footer {
 }
 
 
-#p_prldr{
+#p_prldr {
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -138,8 +138,8 @@ footer {
 	background: #fff;
 	z-index: 100;
 }
-.contpre small{ font-size:25px; }
-.contpre{
+.contpre small { font-size:25px; }
+.contpre {
 	width: 250px;
 	height: 100px;
 	position: absolute;
