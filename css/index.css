@@ -138,6 +138,7 @@ footer {
 	background: #ffffff;
 	z-index: 100;
 }
+
 .contpre {
 	width: 250px;
 	height: 100px;
@@ -150,6 +151,7 @@ footer {
 	font-size: 40px;
 	text-align: center;
 }
+
 #p_prldr .svg_anm {
 	position: absolute;
 	width: 200px;
