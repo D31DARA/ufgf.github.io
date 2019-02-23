@@ -144,7 +144,7 @@ footer {
 	height: 100px;
 	position: absolute;
 	left: 50%;
-	top: 48%;
+	top: 50%;
 	margin-left: -125px;
 	margin-top: -75px;
 	color: #fff;
@@ -158,6 +158,6 @@ footer {
 	width: 200px;
 	height: 200px;
 	background: url(../svg/loading.svg) center center no-repeat;
-	background-size: 200px;    
+	background-size: 200px;
 	margin: -16px 0 0 -16px;
 }
