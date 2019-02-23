@@ -138,20 +138,17 @@ footer {
 	background: #ffffff;
 	z-index: 100;
 }
-.contpre small { font-size:25px; }
 .contpre {
-	width: 250px;
-	height: 100px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-left: -125px;
-	margin-top: -75px;
-	color: #ffffff;
-	font-size: 40px;
-	letter-spacing: -2px;
-	text-align: center;
-	line-height: 35px;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
 }
 #p_prldr .svg_anm {
 	position: absolute;
