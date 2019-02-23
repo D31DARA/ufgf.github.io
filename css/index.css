@@ -135,7 +135,7 @@ footer {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background: #fff;
+	background: #ffffff;
 	z-index: 100;
 }
 .contpre small { font-size:25px; }
@@ -147,7 +147,7 @@ footer {
 	top: 50%;
 	margin-left: -125px;
 	margin-top: -75px;
-	color: #fff;
+	color: #ffffff;
 	font-size: 40px;
 	letter-spacing: -2px;
 	text-align: center;
