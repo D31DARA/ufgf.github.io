@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">	
+	<meta charset="UTF-8">
 	<title>ufgf's team</title>
-	<meta name="description" content="Сайт ufgf's team.">
+	<meta name="description" content="Сайт ufgf's team."/>
 	<link rel="stylesheet" href="css/index.css">
 </head>
 
-<body onload="clock()">
-	<div id="p_prldr" style="display: none;"><div class="contpre"><span class="svg_anm"></span></div></div>
+<body>
+	<div id="p_prldr"><div class="contpre"><span class="svg_anm"></span></div></div>
 
 	<header>
-		<span id="doc_time"></span>
+		<body onload="clock()">
+			<span id="doc_time"></span>
+		</body>
 
 		<details class="music">
 			<summary>MDK - Cap'n Morgan's Revenge</summary>
@@ -24,21 +26,22 @@
 	<main>
 		<div class="middle1">
 			<form>
-				<input class="mdrnbtn1" type="button" value="Поддержать" onclick="window.location.href='http://ufgf.github.io/donate'">
-			</form>	
+				 <input class="mdrnbtn1" type="button" value="Поддержать" onclick="window.location.href='http://ufgf.github.io/donate'" />
+			</form>
 		</div>
 	</main>
 
 	<footer>
 		<div class="middle2">
 			<form>
-				 <input class="mdrnbtn1" type="button" value="Исходник" onclick="window.location.href='http://github.com/ufgf/ufgf.github.io'">
-			</form>	
+				 <input class="mdrnbtn1" type="button" value="Исходник" onclick="window.location.href='http://github.com/ufgf/ufgf.github.io'" />
+			</form>
 		</div>
-    </footer>
+  </footer>
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/loading.js"></script>
 	<script src="js/clock.js"></script>
+</body>
 
 </html>
