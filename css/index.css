@@ -74,26 +74,14 @@ footer {
 	padding: 5px 10px;
 }
 
-.btn {
+.btn_eng {
 	text-decoration: none;
 	color: #fff;
 	position: relative;
 	text-align: center;
-	min-width: 30px;
-	max-width: 300px;
+	min-width: 30px; max-width: 300px;
 	cursor: pointer;
-
-	font-family: 'Open Sans','Ubuntu', sans-serif;
-	font-size: 18px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: start;
-	-ms-flex-pack: start;
-	justify-content: flex-start;
+	font: 16px exo;
 }
 
 .middle1 {
