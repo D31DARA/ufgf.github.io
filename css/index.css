@@ -126,7 +126,7 @@ footer {
 	transform: scaleY(0);
 }
 .mdrnbtn1:hover::before{
-	transform: scaleX(1);
+	transform: scaleY(1);
 }
 
 
