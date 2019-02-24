@@ -63,11 +63,13 @@ footer {
 #doc_time {
 	color: #4e4e4e;
 	font: 16px exo;
+	font-weight: 600;
 	padding: 5px;
 }
 
 .music {
 	font: 16px exo;
+	font-weight: 600;
 	margin-left: auto;
 	padding: 5px 10px;
 }
