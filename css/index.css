@@ -73,14 +73,15 @@ footer {
 	padding: 5px 10px;
 }
 
-.btn_eng {
+.aaaaaa {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	position: relative;
 	text-align: center;
-	min-width: 30px; max-width: 300px;
+	max-width: 300px;
 	cursor: pointer;
 	font: 16px exo;
+	padding: 0px 13%;
 }
 
 .middle1 {
