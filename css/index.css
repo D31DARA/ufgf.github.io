@@ -41,18 +41,18 @@ main {
 }
 
 footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: distribute;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: distribute;
 
-    justify-content: space-around;
-    max-width: 1000px;
-    margin: 0 auto;
+	justify-content: space-around;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 #doc_time {
@@ -106,10 +106,10 @@ footer {
 	cursor: pointer;
 	transition: color 0.3s linear;
 }
-.mdrnbtn1:hover{
+.mdrnbtn1:hover {
 	color: #fff;
 }
-.mdrnbtn1::before{
+.mdrnbtn1::before {
 	content: "";
 	position: absolute;
 	left: 0;
