@@ -14,6 +14,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
 article, aside, details, figcaption, figure, footer, .header, hgroup, menu, nav, section { display: block; }
 ol, ul { list-style: none; }
 
@@ -61,8 +62,7 @@ footer {
 
 #doc_time {
 	color: #4e4e4e;
-	font-family: monospace;
-	font-size: 20px;
+	font: 16px exo;
 	padding: 5px;
 }
 
