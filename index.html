@@ -28,29 +28,37 @@
 	<div id="p_prldr"><div class="contpre"><span class="svg_anm"></span></div></div>
 
 	<header>
-		<body onload="clock()">
-			<span id="doc_time"></span>
-		</body>
+		<div>
+			<body onload="clock()">
+				<span id="doc_time"></span>
+			</body>
+		</div>
 
-		<details class="music">
-			<summary>MDK - Cap'n Morgan's Revenge</summary>
-			<audio controls="controls">
-				<source src="https://github.com/ufgf/ufgf.github.io/raw/master/MDK%20-%20Cap'n%20Morgan's%20Revenge.mp3">
-			</audio>
-		</details>
+		<div id="music">
+			<details>
+				<summary>MDK - Cap'n Morgan's Revenge</summary>
+				<audio controls="controls">
+					<source src="https://github.com/ufgf/ufgf.github.io/raw/master/MDK%20-%20Cap'n%20Morgan's%20Revenge.mp3">
+				</audio>
+			</details>
+		</div>
 	</header>
 
 	<main>
-		<form>
-			 <input class="aaaaab" type="button" value="Поддержать" onclick="window.location.href='http://ufgf.github.io/donate'" />
-		</form>
+		<div id="aaaaad">
+			<form>
+				 <input class="aaaaab" type="button" value="Поддержать" onclick="window.location.href='http://ufgf.github.io/donate'" />
+			</form>
+
+			<form>
+				 <input class="aaaaaс" type="button" value="Исходник" onclick="window.location.href='http://github.com/ufgf/ufgf.github.io'" />
+			</form>
+		</div>
 	</main>
 
 	<footer>
-		<form>
-			 <input class="aaaaaс" type="button" value="Исходник" onclick="window.location.href='http://github.com/ufgf/ufgf.github.io'" />
-		</form>
-  </footer>
+		Мдя.
+	</footer>
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/loading.js"></script>
