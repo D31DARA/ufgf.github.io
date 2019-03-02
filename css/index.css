@@ -108,6 +108,7 @@ footer {
 	padding: 5px 10px;
 }
 
+/* Кнопка <PayPal> на странице поддержки */
 .aaaaaa {
 	text-decoration: none;
 	color: #000;
@@ -121,6 +122,7 @@ footer {
 	cursor: pointer;
 }
 
+/* Кнопка <Поддержать> на главной странице */
 .aaaaab {
 	border: 2px solid #000;
 	font: 16px Google Sans;
@@ -136,11 +138,16 @@ footer {
 	cursor: pointer;
 }
 
-
+/* Кнопка <Исходник> на гланой странице */
 .aaaaaс {
 	background: none;
 	border: 2px solid #000;
 	font-family: Google Sans;
 /*				*/
 	cursor: pointer;
+}
+
+
+.aaaaad {
+	display: flex;
 }
