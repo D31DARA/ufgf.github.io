@@ -125,11 +125,11 @@ footer {
 .aaaaab {
 	border: 2px solid #000;
 	font: 16px Google Sans;
-	background-image: linear-gradient(270deg, #d83b3b, #e3ed20, #20ed2d, #2082ed, #cd20ed, #20edbe) !important;
-	background-size: 1200% 1200% !important;
-	-webkit-animation: for-rainbow 30s ease infinite !important;
-	-moz-animation: for-rainbow 30s ease infinite !important;
-	animation: for-rainbow 30s ease infinite !important;
+	background-image: linear-gradient(270deg, #d83b3b, #e3ed20, #20ed2d, #2082ed, #cd20ed, #20edbe);
+	background-size: 1200% 1200%;
+	-webkit-animation: for-rainbow 30s ease infinite;
+	-moz-animation: for-rainbow 30s ease infinite;
+	animation: for-rainbow 30s ease infinite;
 	color: transparent;
 	-webkit-background-clip: text;
 	font-weight: 900;
