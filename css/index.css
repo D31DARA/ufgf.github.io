@@ -146,11 +146,3 @@ footer {
 /*				*/
 	cursor: pointer;
 }
-
-/* Класс который владеет кнопками <Поддержать> и <Исходник> */
-.aaaaad {
-	display: flex;
-	display: -webkit-box;
-	justify-content: space-around;
-	margin: 0 auto;
-}
