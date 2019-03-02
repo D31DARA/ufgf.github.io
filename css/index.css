@@ -142,7 +142,7 @@ footer {
 .aaaaaс {
 	background: none;
 	border: 2px solid #000;
-	font-family: Google Sans;
+	font: 16px Google Sans;
 /*				*/
 	cursor: pointer;
 }
