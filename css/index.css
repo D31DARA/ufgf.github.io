@@ -110,7 +110,7 @@ footer {
 /* Кнопка <PayPal> на странице поддержки */
 .aaaaaa {
 	text-decoration: none;
-	background-image: linear-gradient(90deg, rgba(34,90,195,1) 0%, rgba(45,152,253,1) 100%);
+	background-image: linear-gradient(90deg, #225ac3, #2d98fd);
 	-webkit-background-clip: text;
 	-webkit-animation: for-rainbow 30s ease infinite;
 	animation: for-rainbow 30s ease infinite;
