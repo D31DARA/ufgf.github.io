@@ -9,7 +9,7 @@
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background: #ffffff;
+	background: #232323f6;
 	z-index: 100;
 }
 
@@ -118,7 +118,7 @@ footer {
 
 /* Кнопка <PayPal> на странице поддержки */
 .aaaaaa {
-	border: .1px solid #f3f3f3;
+	border: .1px solid #333333;
 	font: 16px Google Sans;
 	text-decoration: none;
 	background-image: linear-gradient(90deg, #225ac3, #2d98fd);
