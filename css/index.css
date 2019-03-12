@@ -53,13 +53,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, .header, hgroup, menu, nav, section { display: block; }
 ol, ul { list-style: none; }
 
+
+body {
+	background: #222222;
+}
+
 header {
+	background: #333333;
+
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 
 	text-align: center;
-	background: #d6d6d6;
 	
 	-webkit-box-pack: end;
 	-webkit-box-align: center;
@@ -95,39 +101,42 @@ footer {
 }
 
 #doc_time {
-	color: #4e4e4e;
+	color: #d2d2d2;
+
 	font: 16px Google Sans;
 	font-weight: 600;
 	padding: 5px;
 }
 
 .music {
-	font: 16px exo;
+	color: #d2d2d2;
+/*	-	-	-	-	-	-  */
+	font: 16px Google Sans;
 	font-weight: 600;
 	padding: 5px 10px;
 }
 
 /* Кнопка <PayPal> на странице поддержки */
 .aaaaaa {
+	border: .1px solid #f3f3f3;
+	font: 16px Google Sans;
 	text-decoration: none;
 	background-image: linear-gradient(90deg, #225ac3, #2d98fd);
 	-webkit-background-clip: text;
 	-webkit-animation: for-rainbow 30s ease infinite;
 	animation: for-rainbow 30s ease infinite;
-	border: .1px solid #f3f3f3;
 	color: transparent;
 	position: relative;
 	text-align: center;
-	font: 16px Google Sans;
 	padding: 10.4% 9%;
 	margin: 1%;
-/*				*/
+/*	-	-	-	-	-	-  */
 	cursor: pointer;
 }
 
 /* Кнопка <Поддержать> на главной странице */
 .aaaaab {
-	border: 2px solid #000;
+	border: 2px solid #333333;
 	font: 16px Google Sans;
 	background-image: linear-gradient(270deg, #d83b3b, #e3ed20, #20ed2d, #2082ed, #cd20ed, #20edbe);
 	background-size: 1200% 1200%;
@@ -137,19 +146,26 @@ footer {
 	color: transparent;
 	-webkit-background-clip: text;
 	font-weight: 900;
-/*				*/
+/*	-	-	-	-	-	-  */
 	cursor: pointer;
 }
 
 /* Кнопка <Исходник> на главной странице */
 .aaaaaс {
-	border: 2px solid #000;
+	border: 2px solid #333333;
 	font: 16px Google Sans;
 	background-image: linear-gradient(270deg, #ffc800, #947400);
 	-webkit-background-clip: text;
 	background-size: 1200% 1200%;
 	color: transparent;
 	animation: for-rainbow 30s ease infinite;
-/*				*/
+/*	-	-	-	-	-	-  */
 	cursor: pointer;
+}
+
+/* div отвечающий за кнопки <Поддержать>, <Исходник> и т.д. на главной странице */
+.aaaaad {
+	 display: flex;
+	 justify-content: space-around;
+	 margin: 0 auto;
 }
