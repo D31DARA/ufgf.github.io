@@ -10,7 +10,8 @@
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background: #232323f6;
+	background: #232323;
+	opacity: .9;
 	z-index: 100;
 }
 
