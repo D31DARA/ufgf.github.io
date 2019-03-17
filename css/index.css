@@ -172,7 +172,7 @@ footer {
 
 /* Покраска текста на названии музыки */
 .aaaaae {
-	background-image: linear-gradient(270deg, #e02958, #f9e5ad);
+	background-image: linear-gradient(270deg, #e02958, #414e80, #f9e5ad);
 	-webkit-background-clip: text;
 	background-size: 1200% 1200%;
 	color: transparent;
