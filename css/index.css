@@ -177,4 +177,6 @@ footer {
 	background-size: 1200% 1200%;
 	color: transparent;
 	animation: for-rainbow 30s ease infinite;
+/*	-	-	-	-	-	-  */
+	cursor: pointer;
 }
