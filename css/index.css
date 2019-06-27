@@ -61,7 +61,6 @@ ol, ul { list-style: none; }
 
 
 body {
-	font-family: "Google Sans - Medium";
 	background: #222222;
 }
 
@@ -109,7 +108,7 @@ footer {
 #doc_time {
 	color: #d2d2d2;
 
-	font: 16px Google Sans;
+	font-family: "Google Sans - Medium";
 	font-weight: 600;
 	padding: 5px;
 }
@@ -117,7 +116,7 @@ footer {
 .music {
 	color: #d2d2d2;
 /*	-	-	-	-	-	-  */
-	font: 16px Google Sans;
+	font-family: "Google Sans - Medium";
 	font-weight: 600;
 	padding: 5px 10px;
 }
@@ -125,7 +124,7 @@ footer {
 /* Кнопка <PayPal> на странице поддержки */
 .aaaaaa {
 	border: .1px solid #333333;
-	font: 16px Google Sans;
+	font-family: "Google Sans - Medium";
 	text-decoration: none;
 	background-image: linear-gradient(90deg, #225ac3, #2d98fd);
 	-webkit-background-clip: text;
@@ -143,7 +142,7 @@ footer {
 /* Кнопка <Поддержать> на главной странице */
 .aaaaab {
 	border: 2px solid #333333;
-	font: 16px Google Sans;
+	font-family: "Google Sans - Medium";
 	background-image: linear-gradient(270deg, #d83b3b, #e3ed20, #20ed2d, #2082ed, #cd20ed, #20edbe);
 	background-size: 1200% 1200%;
 	-webkit-animation: for-rainbow 30s ease infinite;
@@ -159,7 +158,7 @@ footer {
 /* Кнопка <Исходник> на главной странице */
 .aaaaaс {
 	border: 2px solid #333333;
-	font: 16px Google Sans;
+	font-family: "Google Sans - Medium";
 	background-image: linear-gradient(270deg, #9ebd13, #008552, #f8d353, #ff5c5a);
 	-webkit-background-clip: text;
 	background-size: 1200% 1200%;
