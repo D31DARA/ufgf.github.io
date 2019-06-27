@@ -2,10 +2,10 @@
 	box-sizing: border-box;
 }
 
-/* Шрифты: начало
+/* Шрифты: начало */
 @font-face {
-	font-family: Pompadur;
-	src: url(fonts/pompadur.ttf);
+	font-family: "Google Sans - Medium";
+	src: url("../fonts/GoogleSans-Medium.ttf");
 }
 /* Шрифты: конец */
 
