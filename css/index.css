@@ -71,6 +71,7 @@ header {
 	display: -ms-flexbox;
 	display: flex;
 
+	font-family: "Google Sans - Medium";
 	text-align: center;
 	
 	-webkit-box-pack: end;
@@ -84,6 +85,8 @@ main {
 	display: -ms-flexbox;
 	display: flex;
 
+	font-family: "Google Sans - Medium";
+
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
@@ -95,6 +98,8 @@ footer {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+
+	font-family: "Google Sans - Medium";
 
 	-webkit-box-align: center;
 	-ms-flex-align: center;
