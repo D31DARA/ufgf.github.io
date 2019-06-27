@@ -2,8 +2,14 @@
 	box-sizing: border-box;
 }
 
+/* Шрифты: начало
+@font-face {
+	font-family: Pompadur;
+	src: url(fonts/pompadur.ttf);
+}
+/* Шрифты: конец */
 
-/* Loading  start */
+/* Анимация загрузки: начало */
 #p_prldr {
 	position: fixed;
 	left: 0;
@@ -36,7 +42,7 @@
 	background-size: 200px;
 	margin: -16px 0 0 -16px;
 }
-/* Loading  end */
+/* Анимация загрузки: конец */
 
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, .header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
